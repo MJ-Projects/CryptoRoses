@@ -8,6 +8,7 @@
       "type": "constructor"
     }
   ],
+<<<<<<< HEAD
   "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820d34b75faf5fa449a1febbdb034177e39f012d0112f08bd4e394e590ce4342ed30029",
   "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820d34b75faf5fa449a1febbdb034177e39f012d0112f08bd4e394e590ce4342ed30029",
   "sourceMap": "26:208:4:-;;;186:46;;;;;;;;217:10;209:5;;:18;;;;;;;;;;;;;;;;;;26:208;;;;;;",
@@ -17,6 +18,17 @@
   "ast": {
     "attributes": {
       "absolutePath": "/Users/MJ/Documents/GitHub/CryptoRoses/contracts/Owned.sol",
+=======
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a7230582094dde2633309ef49ca66467cbd5f82f3c3f8e95485237ddd22e6a121080ecefa0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582094dde2633309ef49ca66467cbd5f82f3c3f8e95485237ddd22e6a121080ecefa0029",
+  "sourceMap": "26:208:4:-;;;186:46;;;;;;;;217:10;209:5;;:18;;;;;;;;;;;;;;;;;;26:208;;;;;;",
+  "deployedSourceMap": "26:208:4:-;;;;;",
+  "source": "pragma solidity ^0.4.11;\n\ncontract Owned {\n  // State variable\n  address owner;\n\n  // Modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // constructor\n  function Owned() {\n    owner = msg.sender;\n  }\n}\n",
+  "sourcePath": "/Users/MJ/myCryptoRose/contracts/Owned.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/MJ/myCryptoRose/contracts/Owned.sol",
+>>>>>>> d4e9c1c277f145ea380efe4bb592b18d1b6e707f
       "exportedSymbols": {
         "Owned": [
           1176
@@ -360,5 +372,9 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
+<<<<<<< HEAD
   "updatedAt": "2018-01-23T08:53:21.905Z"
+=======
+  "updatedAt": "2018-01-23T09:03:15.264Z"
+>>>>>>> d4e9c1c277f145ea380efe4bb592b18d1b6e707f
 }
